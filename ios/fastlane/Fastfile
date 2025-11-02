@@ -15,7 +15,7 @@ platform :ios do
     match(
       type: "appstore",
       readonly: ENV['CI'] ? true : false,
-      app_identifier: "com.djubx.runner",
+      app_identifier: "com.simplehotApp",
       git_url: "https://github.com/djubx/ios-certificates"
     )
 
@@ -33,7 +33,7 @@ platform :ios do
       output_name: "Runner.ipa",
       export_options: {
         provisioningProfiles: {
-          "com.djubx.runner" => "match AppStore com.djubx.runner"
+          "com.simplehotApp" => "match AppStore com.simplehotApp"
         }
       }
     )
@@ -66,7 +66,7 @@ platform :ios do
   lane :setup_signing do
     match(
       type: "appstore",
-      app_identifier: "com.djubx.runner",
+      app_identifier: "com.simplehotApp",
       git_url: "https://github.com/djubx/ios-certificates"
     )
   end

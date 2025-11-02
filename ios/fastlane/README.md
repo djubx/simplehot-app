@@ -79,7 +79,7 @@ fastlane beta
 ### Code signing issues
 - Ensure you have valid certificates in your Apple Developer account
 - Set up Fastlane Match for automatic code signing
-- Check that provisioning profiles match your bundle ID: com.djubx.runner
+- Check that provisioning profiles match your bundle ID: com.simplehotApp
 
 ### Build issues
 - Verify Xcode project builds manually first

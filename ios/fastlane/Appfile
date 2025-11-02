@@ -5,7 +5,7 @@
 # apple_id ENV["APPLE_ID"]
 
 # App identifier
-app_identifier("com.djubx.runner")
+app_identifier("com.simplehotApp")
 
 # You can uncomment and set your team ID here:
 # team_id "YOUR_TEAM_ID"

@@ -7,7 +7,7 @@ storage_mode("git")
 
 type("appstore") # Can be appstore, adhoc, development, enterprise
 
-app_identifier(["com.djubx.runner"])
+app_identifier(["com.simplehotApp"])
 
 # Uncomment to set your Apple ID (or use FASTLANE_USER environment variable)
 # username("your@email.com")
