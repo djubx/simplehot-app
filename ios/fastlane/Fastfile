@@ -19,13 +19,9 @@ platform :ios do
       git_url: "https://github.com/djubx/ios-certificates"
     )
 
-    # Increment build number (use CI build number if available)
-    if ENV['GITHUB_RUN_NUMBER']
-      increment_build_number(
-        build_number: ENV['GITHUB_RUN_NUMBER'],
-        xcodeproj: "../Runner.xcodeproj"
-      )
-    end
+    # Note: Build number increment is skipped to avoid path issues
+    # The build number will be managed by Xcode or manually
+    # If you need auto-increment, configure it in your Xcode project settings
 
     # Build the app
     build_app(
