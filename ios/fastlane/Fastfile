@@ -31,6 +31,7 @@ platform :ios do
       clean: true,
       output_directory: "./build",
       output_name: "Runner.ipa",
+      xcargs: "-allowProvisioningUpdates CODE_SIGN_STYLE=Manual",
       export_options: {
         provisioningProfiles: {
           "com.simplehotApp" => "match AppStore com.simplehotApp"
